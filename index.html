@@ -309,7 +309,7 @@
           <div >
             <img src="./src/images/rice-banner-new-1.jpg" class="w-[1520px] h-[550px]" alt="">
           </div>
-          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px]pr-[17px]  rounded-md absolute right-100 -bottom-6">
+          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px] pr-[17px]  rounded-md absolute right-100 -bottom-6">
             <div class="pt-[5px] pl-[10px] text-white font-family text-[29px] pr-5 mb-5"> برنج گلستان  </div>
             <div  class="text-white font-family text-[16px] pr-5" >معرفی محصول </div>
             
@@ -351,7 +351,7 @@
           <div >
             <img src="./src/images/Tea-banner.jpg" class="w-[1520px] h-[550px]" alt="">
           </div>
-          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px]pr-[17px]  rounded-md absolute right-100 -bottom-6">
+          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px] pr-[17px]  rounded-md absolute right-100 -bottom-6">
             <div class="pt-[5px] pl-2.5 text-white font-family text-[29px] pr-5 mb-5"> چای گلستان  </div>
             <div  class="text-white font-family text-[16px] pr-5" >معرفی محصول </div>
             
@@ -392,7 +392,7 @@
           <div >
             <img src="./src/images/pistache.jpg" class="w-[1520px] h-[550px]" alt="">
           </div>
-          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px]pr-[17px]  rounded-md absolute right-100 -bottom-6">
+          <div class="w-[291px] h-[100px] bg-red-600  shadow-s pl-[114px] pr-[17px]  rounded-md absolute right-100 -bottom-6">
             <div class="pt-[5px] pl-2.5 text-white font-family text-[29px] pr-5 mb-5"> پسته گلستان  </div>
             <div  class="text-white font-family text-[16px] pr-5" >معرفی محصول </div>
             
@@ -652,7 +652,11 @@
               class="w-[170px] h-[344px] p-2.5  "
             >
               <div
-                class="w-[170px] h-full flex flex-col justify-between items-center "
+                class="
+                desktop:w-[170px] desktop:h-full desktop:flex desktop:flex-col desktop:justify-between desktop:items-center
+                 mobile:w-fit mobile:h-full mobile:inline-block flex flex-col mobile:justify-between mobile:items-center
+
+                 "
               >
                 <img src="src/images/footer-2/1 (1).png" alt="" />
                 <div class="w-full">
@@ -702,7 +706,7 @@
                   <div class="w-full h-px bg-[#828991]"></div>
                 </div>
                 <ul
-                  class="w-full font-[iransans] font-thin text-[13px] leading-7 text-[#BCBEC0] mobile:text-center tablet:text-right"
+                  class="w-full font-family font-thin text-[13px] leading-7 text-[#BCBEC0] mobile:text-center tablet:text-right"
                 >
                   <li class="hover:text-white duration-300">
                     <a href="#" class="w-full block">زعفران ممتاز خراسان</a>

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face{
+      font-family: vaziri;
+    src: url(../fonts/Vazir.eot) , url(../fonts/Vazir.ttf),  url(../fonts/Vazir.woff) ,  url(../fonts/Vazir.woff2);
+}
+@font-face{
+    font-family: vaziriNumber;
+    src: url(../fonts/Vazir-Bold-FD-WOL.ttf);
+}
+
+@theme{
+    
+    --breakpoint-mobile:340px;
+    --breakpoint-desktop:1400px;
+    --font-family:vaziri;
+    --number:vaziriNumber;
+}
+

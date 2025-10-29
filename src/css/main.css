@@ -8,12 +8,16 @@
     font-family: vaziriNumber;
     src: url(../fonts/Vazir-Bold-FD-WOL.ttf);
 }
-
-@theme{
+@font-face{
+    font-family: Dance;
+    src:url(../fonts/Dancing.ttf.ttf)
+}
+@theme {
     
     --breakpoint-mobile:340px;
     --breakpoint-desktop:1400px;
     --font-family:vaziri;
     --number:vaziriNumber;
+    --font-dance:Dance;
 }
 

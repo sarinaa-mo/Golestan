@@ -10,7 +10,7 @@
     <title>golestan</title>
   </head>
   <body>
-    <div class="flex flex-col md:flex-row">
+    
 
     </div>
   <!-- #header -->
@@ -176,6 +176,7 @@
             ">EN </a> </div>
         </nav>
         </div>
+        <!--End-menu-->
 
 
       </div>
@@ -231,7 +232,7 @@
     </div>
 
     </div>
-     <!--End of banner-->
+     <!--End-banner-->
     
      <span  class="block   border-t-[0.5px] border-style-s   text-[#BABABA] mt-2  " ></span>
      <!--#Title-->
@@ -255,8 +256,8 @@
     </div>
 
      </div>
-     <!--End of Title-->
-     <!-- #elements-section-->
+     <!--End-Title-->
+     <!-- #Elements-section-->
 
     <section class="w-full  h-[289px] flex justify-center  pt-20 bg-white gap-3">
   <div class="grid grid-cols-4 gap-5 w-[680px]">
@@ -302,7 +303,7 @@
 
  
       <!-- #End-of-element-section-->
-        <!-- # Rice-banner-section-->
+        <!-- #Rice-banner-section-->
 
         <div  class=" h-[600] flex  justify-center relative mt-[50px]">
           <div >
@@ -318,7 +319,7 @@
         </div>
         <div  class="h-[15px] w-full bg-[#E9D69F]" ></div>
         <span  class="block   border-t-[0.5px] border-style-s   text-[#BABABA] mt-3  "></span>
-        <!-- # Rice-banner-section-->
+        <!-- #End-Rice-banner-section-->
 
       <!--#Rice-section-->
         <div   class="w-full h-[600] flex  flex-col justify-center items-center">
@@ -343,7 +344,7 @@
     </div>
 
    
-        <!-- End-of-Rice-section-->
+        <!-- End-Rice-section-->
      <!-- # Tea-banner-section-->
 
         <div  class=" h-[600] flex  justify-center relative mt-[50px]">
@@ -404,7 +405,7 @@
         <!-- # pistache-banner-section-->
 
       <!--#pistache-section-->
-        <div   class="w-full h-[600] flex  flex-col justify-center items-center overflow-hidden">
+        <div   class="w-full h-[600px] flex  flex-col justify-center items-center overflow-hidden">
       <div   class="w-[680px] h-[200px]    flex flex-col  mt-20">
 
       <h2 class="text-red-600 font-family text-[20px]">    آجیل های خوش خنده </h2>
@@ -424,14 +425,14 @@
     </div>
    
         <!-- End-pistache-section--> 
-         <!--#recipe-baner-->
+         <!--#Recipe-baner-->
         <div  class="w-[1500px] h-[250 px]  " >
 
           <img src="./src/images/recipe-baner-1.png"    alt="">
         </div>
 
 
-          <!--End-recipe-baner-->
+          <!--End-Recipe-baner-->
           <div class="w-full h-10 text-red-600 text-2xl font-family pr-90 mb-10">
             مجله ی گلستان
           </div>
@@ -488,7 +489,7 @@
 
        <!--End-Artical-->
 
-         <!--#Video-->
+         <!--#Videos-->
   
   <section class="w-full   bg-white py-5  ">
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
@@ -546,7 +547,7 @@
   </div>
 </section>
 
-       <!--End-Video-->
+       <!--End-Videos-->
        <!--Footer-1-->
        <section class="tablet:mb-[100px] mobile:mb-[60px]">
           <div class="w-full h-[600px] bg-[#105153] flex items-center relative">
@@ -638,7 +639,7 @@
           ></a>
         </section>
         <section class="w-full h-[25px] bg-[#ED1C24] dark:bg-red-900"></section>
-        <!--Endfooter-1-->
+        <!--End-footer-1-->
 
 
         <!--#footer-2-->
@@ -775,7 +776,7 @@
                   <div class="w-full h-px bg-[#828991]"></div>
                 </div>
                 <ul
-                  class="w-full font-[iransans] font-thin text-[13px] leading-7 text-[#BCBEC0] mobile:text-center "
+                  class="w-full font-family font-thin text-[13px] leading-7 text-[#BCBEC0] mobile:text-center "
                 >
                   <li class="hover:text-white duration-300">
                     <a href="#" class="w-full block">چای ممتاز هندوستان​</a>
@@ -801,19 +802,20 @@
             class="h-[125px] gap-y-[5px] flex flex-col justify-center items-center"
           >
             <div
-              class="font-[lato] font-nrmal text-[15px] leading-[15px] text-[#9f9f9f] text-center"
+              class="font-dance font-normal text-[15px] leading-[15px] text-[#9f9f9f] text-center"
             >
               All Right Reserved Golestan Company 2022-2025
             </div>
             <div
-              class="font-[lato] font-normal text-[14px] leading-3.5 text-[#7b7b7b] text-center"
+              class="font-dance font-normal text-[14px] leading-[3.5] text-[#7b7b7b] text-center"
             >
               Designed By: Sarino
             </div>
           </div>
         </section>
       </footer>
-      </div>
+      <!--#End-footer-2-->
+      
       
     
 
@@ -827,11 +829,11 @@
     
     <script src="./src/js/main.js"></script>
     <script>
-const btn = document.getElementById("menu-btn");
-const menu = document.getElementById("mobile-menu");
-btn.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-});
-</script>
+     const btn = document.getElementById("menu-btn");
+     const menu = document.getElementById("mobile-menu");
+     btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+    </script>
   </body>
 </html>

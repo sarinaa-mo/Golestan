@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face{
       font-family: vaziri;
     src: url(../fonts/Vazir.eot) , url(../fonts/Vazir.ttf),  url(../fonts/Vazir.woff) ,  url(../fonts/Vazir.woff2);
@@ -20,4 +22,5 @@
     --number:vaziriNumber;
     --font-dance:Dance;
 }
+
 
